@@ -44,12 +44,12 @@
             }
         }
         echo'<div class="row">
-            <div class="col-md-7">
+            <div class="col-lg-7">
                 <a href="#">
                     <img class="img-fluid rounded mb-3 mb-md-0" src="' . $path . $dir . '/' . $img .'" alt="">
                 </a>
             </div>
-            <div class="col-md-5 d-flex flex-column">
+            <div class="col-lg-5 d-flex flex-column">
                 <h3>'. $header . '</h3>
                 <p class="description">'. $description . '</p>
     

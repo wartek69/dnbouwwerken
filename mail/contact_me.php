@@ -20,8 +20,6 @@ $email_subject = "Website Contact:  $name";
 $email_body = "U hebt een nieuw bericht ontvangen via uw website contact formuliern\n" . "Hier zijn de details:\n\nNaam: $name\n\nEmail: $email_address\n\nGsm: $phone\n\nBericht:\n$message";
 $headers = "From: noreply@DN.com\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
 $headers .= "Reply-To: $email_address";
-echo "test";
 mail($to, $email_subject, $email_body, $headers);
-echo "testtt";
 return true;
 ?>
