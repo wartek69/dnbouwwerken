@@ -72,7 +72,7 @@
                 </div>
                 <div id="success"></div>
                 <!-- For success/fail messages -->
-                <button type="submit" class="btn btn-primary" id="sendMessageButton">Send Message</button>
+                <button type="submit" class="btn btn-primary" disabled id="sendMessageButton">Send Message</button>
             </form>
         </div>
         <!-- Contact Details Column -->
