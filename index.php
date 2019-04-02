@@ -35,7 +35,7 @@
     <div class="row mt-5 mb-5">
 
         <div class="col-md-8">
-            <img class="img-fluid" src="http://placehold.it/750x500" alt="">
+            <img class="img-fluid" src="img/header.jpg" alt="">
         </div>
 
         <div class="col-md-4">
