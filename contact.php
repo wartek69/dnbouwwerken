@@ -16,6 +16,16 @@
 
     <!-- Custom styles for this template -->
     <link href="css/modern-business.css" rel="stylesheet">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137514577-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-137514577-1');
+    </script>
+
 
 </head>
 
@@ -40,36 +50,38 @@
         <div class="col-lg-8 mb-4">
             <h3>Stuur ons een email</h3>
             <form name="sentMessage" id="contactForm" novalidate>
-                <div class="control-group form-group">
-                    <div class="controls">
-                        <label>Naam:</label>
-                        <input type="text" class="form-control" id="name" required
-                               data-validation-required-message="Naam is vereist!">
-                        <p class="help-block"></p>
+                <fieldset disabled>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Naam:</label>
+                            <input type="text" class="form-control" id="name" required
+                                   data-validation-required-message="Naam is vereist!">
+                            <p class="help-block"></p>
+                        </div>
                     </div>
-                </div>
-                <div class="control-group form-group">
-                    <div class="controls">
-                        <label>Nummer:</label>
-                        <input type="tel" class="form-control" id="phone" required
-                               data-validation-required-message="Nummer is vereist!">
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Nummer:</label>
+                            <input type="tel" class="form-control" id="phone" required
+                                   data-validation-required-message="Nummer is vereist!">
+                        </div>
                     </div>
-                </div>
-                <div class="control-group form-group">
-                    <div class="controls">
-                        <label>Email:</label>
-                        <input type="email" class="form-control" id="email" required
-                               data-validation-required-message="email is vereist!">
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Email:</label>
+                            <input type="email" class="form-control" id="email" required
+                                   data-validation-required-message="email is vereist!">
+                        </div>
                     </div>
-                </div>
-                <div class="control-group form-group">
-                    <div class="controls">
-                        <label>Bericht:</label>
-                        <textarea rows="10" cols="100" class="form-control" id="message" required
-                                  data-validation-required-message="Bericht is vereist!" maxlength="999"
-                                  style="resize:none"></textarea>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Bericht:</label>
+                            <textarea rows="10" cols="100" class="form-control" id="message" required
+                                      data-validation-required-message="Bericht is vereist!" maxlength="999"
+                                      style="resize:none"></textarea>
+                        </div>
                     </div>
-                </div>
+                </fieldset>
                 <div id="success"></div>
                 <!-- For success/fail messages -->
                 <button type="submit" class="btn btn-primary" disabled id="sendMessageButton">Send Message</button>
