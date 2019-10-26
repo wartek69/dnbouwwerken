@@ -5,10 +5,10 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Een portfolio van ons vakmanschap, verschillende soorten renovatie werken voor eerdere klanten kan u hier terugvinden.">
+    <meta name="author" content="DN Bouwwerken">
 
-    <title>DN Bouwwerken</title>
+    <title>Renovatie Portfolio</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">

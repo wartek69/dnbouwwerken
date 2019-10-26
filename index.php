@@ -5,8 +5,9 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="We zijn DN bouwwerken, een bouwbedrijf met meer dan 20 jaar ervaring! We houden ons bezig met alle soorten renovaties. Contacteer ons voor meer info of neem een kijkje op onze website.
+Renovaties van A tot Z!">
+    <meta name="author" content="Dn bouwwerken">
 
     <title>DN Bouwwerken</title>
     <link href="css/style.css" rel="stylesheet">
