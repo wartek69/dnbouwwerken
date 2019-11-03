@@ -50,7 +50,7 @@
         <div class="col-lg-8 mb-4">
             <h3>Stuur ons een email</h3>
             <form name="sentMessage" id="contactForm" novalidate>
-                <fieldset disabled>
+                <fieldset>
                     <div class="control-group form-group">
                         <div class="controls">
                             <label>Naam:</label>
@@ -84,7 +84,7 @@
                 </fieldset>
                 <div id="success"></div>
                 <!-- For success/fail messages -->
-                <button type="submit" class="btn btn-primary" disabled id="sendMessageButton">Send Message</button>
+                <button type="submit" class="btn btn-primary" id="sendMessageButton">Send Message</button>
             </form>
         </div>
         <!-- Contact Details Column -->
