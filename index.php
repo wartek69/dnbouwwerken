@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="We zijn DN bouwwerken, een bouwbedrijf met meer dan 20 jaar ervaring! We houden ons bezig met alle soorten renovaties. Contacteer ons voor meer info of neem een kijkje op onze website.
 Renovaties van A tot Z!">
-    <meta name="author" content="Dn bouwwerken">
+    <meta name="author" content="Dn bouwwerken dnbouwwerken">
 
     <title>DN Bouwwerken</title>
     <link href="css/style.css" rel="stylesheet">
@@ -82,7 +82,7 @@ Renovaties van A tot Z!">
 
 <!-- Footer -->
 <footer class="bg-dark footer mt-10">
-    <p class="m-0 text-center text-white">Copyright &copy; DN Bouwwerken 2019</p>
+    <p class="m-0 text-center text-white">Copyright &copy; dnbouwwerken 2021</p>
 
 </footer>
 
